@@ -10,7 +10,7 @@ my %build_requires = (
 
 my %requires = (
     'strictures'        => 1,
-    'JSON'              => 0,
+    'JSON::MaybeXS'     => 0,
 );
 
 # have to do this since old EUMM dev releases miss the eval $VERSION line

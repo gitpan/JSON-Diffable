@@ -4,7 +4,7 @@
       "Robert Sedlacek <r.sedlacek@shadowcat.co.uk>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.62, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.143240",
    "license" : [
       "perl_5"
    ],
@@ -32,11 +32,11 @@
       },
       "runtime" : {
          "requires" : {
-            "JSON" : "0",
+            "JSON::MaybeXS" : "0",
             "strictures" : "1"
          }
       }
    },
    "release_status" : "stable",
-   "version" : "0.000001"
+   "version" : "0.000002"
 }

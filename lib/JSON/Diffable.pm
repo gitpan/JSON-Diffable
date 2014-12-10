@@ -4,14 +4,14 @@ use strictures 1;
 
 package JSON::Diffable;
 
-use JSON ();
+use JSON::MaybeXS ();
 use Exporter 'import';
 
-our $VERSION = '0.000001'; # 0.0.1
+our $VERSION = '0.000002'; # 0.0.2
 
 $VERSION = eval $VERSION;
 
-my $real = JSON->new->relaxed->allow_nonref->utf8;
+my $real = JSON::MaybeXS->new->relaxed->allow_nonref->utf8;
 
 our @EXPORT_OK = qw( encode_json decode_json );
 
